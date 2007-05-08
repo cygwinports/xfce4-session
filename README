@@ -1,0 +1,181 @@
+xfce4-session
+------------------------------------------
+Xfce4 session manager
+
+Runtime requirements:
+  cygwin-1.5.24-2
+  atk-1.12.4-1
+  gdk-pixbuf2-2.10.11-1
+  glib2-2.12.11-1
+  gtk2-x11-2.10.11-1
+  libICE6-1.0.2-1
+  libSM6-1.0.2-1
+  libX11_6-1.1.1-1
+  libcairo2-1.4.6-1
+  libdbus1_3-1.0.2-1
+  libintl8-0.15-1
+  libxfce4mcs-4.4.1-1
+  libxfce4util-4.4.1-1
+  libxfcegui4-4.4.1-1
+  pango-1.14.10-1
+  xfce-mcs-manager-4.4.1-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.24-2
+  autoconf2.5-2.61-1
+  automake1.9-1.9.6-2
+  binutils-20060817-1
+  cygport-0.3.1-1
+  gawk-3.1.5-4
+  gcc-core-3.4.4-3
+  libtool1.5-1.5.23a-2
+  make-3.81-1
+  pkg-config-0.21-1
+  sed-4.1.5-2
+  xfce4-dev-tools-4.4.0-1
+
+Canonical website:
+  http://www.xfce.org/
+
+Canonical download:
+  http://www.xfce.org/archive/
+
+-------------------------------------------
+
+Build instructions:
+  unpack xfce4-session-4.4.1-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./xfce4-session-4.4.1-X.cygport all
+
+This will create:
+  /usr/src/xfce4-session-4.4.1-X-src.tar.bz2
+  /usr/src/xfce4-session-4.4.1-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/postinstall/xfce4-session.sh
+  /etc/xdg/autostart/xfce4-tips-autostart.desktop
+  /etc/xdg/xfce4-session/xfce4-session.rc
+  /usr/bin/cygxfsm-4.2-0.dll
+  /usr/bin/xfce4-autostart-editor.exe
+  /usr/bin/xfce4-session-logout.exe
+  /usr/bin/xfce4-session.exe
+  /usr/bin/xfce4-tips.exe
+  /usr/include/xfce4/xfce4-session-4.2/libxfsm/xfsm-splash-engine.h
+  /usr/include/xfce4/xfce4-session-4.2/libxfsm/xfsm-splash-rc.h
+  /usr/lib/libxfsm-4.2.dll.a
+  /usr/lib/libxfsm-4.2.la
+  /usr/lib/pkgconfig/xfce4-session-1.0.pc
+  /usr/lib/xfce4/balou-export-theme
+  /usr/lib/xfce4/balou-install-theme
+  /usr/lib/xfce4/mcs-plugins/session_settings.dll
+  /usr/lib/xfce4/mcs-plugins/session_settings.la
+  /usr/lib/xfce4/mcs-plugins/splash_settings.dll
+  /usr/lib/xfce4/mcs-plugins/splash_settings.la
+  /usr/lib/xfce4/splash/engines/cygbalou.dll
+  /usr/lib/xfce4/splash/engines/cygmice.dll
+  /usr/lib/xfce4/splash/engines/cygsimple.dll
+  /usr/lib/xfce4/splash/engines/libbalou.la
+  /usr/lib/xfce4/splash/engines/libmice.la
+  /usr/lib/xfce4/splash/engines/libsimple.la
+  /usr/lib/xfce4/xfsm-shutdown-helper.exe
+  /usr/share/applications/xfce-session-settings.desktop
+  /usr/share/applications/xfce-splash-settings.desktop
+  /usr/share/applications/xfce4-autostart-editor.desktop
+  /usr/share/doc/Cygwin/xfce4-session-4.4.1.README
+  /usr/share/doc/xfce4-session-4.4.1/AUTHORS
+  /usr/share/doc/xfce4-session-4.4.1/BUGS
+  /usr/share/doc/xfce4-session-4.4.1/COPYING
+  /usr/share/doc/xfce4-session-4.4.1/ChangeLog
+  /usr/share/doc/xfce4-session-4.4.1/INSTALL
+  /usr/share/doc/xfce4-session-4.4.1/NEWS
+  /usr/share/doc/xfce4-session-4.4.1/README
+  /usr/share/doc/xfce4-session-4.4.1/TODO
+  /usr/share/icons/hicolor/128x128/apps/xfce4-session.png
+  /usr/share/icons/hicolor/48x48/apps/xfce4-session.png
+  /usr/share/icons/hicolor/48x48/apps/xfce4-splash.png
+  /usr/share/icons/hicolor/48x48/apps/xfsm-logout.png
+  /usr/share/icons/hicolor/48x48/apps/xfsm-reboot.png
+  /usr/share/icons/hicolor/48x48/apps/xfsm-shutdown.png
+  /usr/share/icons/hicolor/64x64/apps/xfsm-gnome-kde-logo.png
+  /usr/share/icons/hicolor/72x72/apps/xfsm-trash-hilight.png
+  /usr/share/icons/hicolor/72x72/apps/xfsm-trash-normal.png
+  /usr/share/icons/hicolor/scalable/apps/xfce4-session.svg
+  /usr/share/icons/hicolor/scalable/apps/xfsm-shutdown.svg
+  /usr/share/locale/ar/LC_MESSAGES/xfce4-session.mo
+  /usr/share/locale/az/LC_MESSAGES/xfce4-session.mo
+  /usr/share/locale/be/LC_MESSAGES/xfce4-session.mo
+  /usr/share/locale/bn_IN/LC_MESSAGES/xfce4-session.mo
+  /usr/share/locale/ca/LC_MESSAGES/xfce4-session.mo
+  /usr/share/locale/cs/LC_MESSAGES/xfce4-session.mo
+  /usr/share/locale/de/LC_MESSAGES/xfce4-session.mo
+  /usr/share/locale/dz/LC_MESSAGES/xfce4-session.mo
+  /usr/share/locale/el/LC_MESSAGES/xfce4-session.mo
+  /usr/share/locale/en_GB/LC_MESSAGES/xfce4-session.mo
+  /usr/share/locale/eo/LC_MESSAGES/xfce4-session.mo
+  /usr/share/locale/es/LC_MESSAGES/xfce4-session.mo
+  /usr/share/locale/es_MX/LC_MESSAGES/xfce4-session.mo
+  /usr/share/locale/et/LC_MESSAGES/xfce4-session.mo
+  /usr/share/locale/eu/LC_MESSAGES/xfce4-session.mo
+  /usr/share/locale/fa/LC_MESSAGES/xfce4-session.mo
+  /usr/share/locale/fi/LC_MESSAGES/xfce4-session.mo
+  /usr/share/locale/fr/LC_MESSAGES/xfce4-session.mo
+  /usr/share/locale/gl/LC_MESSAGES/xfce4-session.mo
+  /usr/share/locale/gu/LC_MESSAGES/xfce4-session.mo
+  /usr/share/locale/he/LC_MESSAGES/xfce4-session.mo
+  /usr/share/locale/hi/LC_MESSAGES/xfce4-session.mo
+  /usr/share/locale/hu/LC_MESSAGES/xfce4-session.mo
+  /usr/share/locale/it/LC_MESSAGES/xfce4-session.mo
+  /usr/share/locale/ja/LC_MESSAGES/xfce4-session.mo
+  /usr/share/locale/ka/LC_MESSAGES/xfce4-session.mo
+  /usr/share/locale/ko/LC_MESSAGES/xfce4-session.mo
+  /usr/share/locale/lt/LC_MESSAGES/xfce4-session.mo
+  /usr/share/locale/mk/LC_MESSAGES/xfce4-session.mo
+  /usr/share/locale/mr/LC_MESSAGES/xfce4-session.mo
+  /usr/share/locale/ms/LC_MESSAGES/xfce4-session.mo
+  /usr/share/locale/nb_NO/LC_MESSAGES/xfce4-session.mo
+  /usr/share/locale/nl/LC_MESSAGES/xfce4-session.mo
+  /usr/share/locale/pa/LC_MESSAGES/xfce4-session.mo
+  /usr/share/locale/pl/LC_MESSAGES/xfce4-session.mo
+  /usr/share/locale/pt_BR/LC_MESSAGES/xfce4-session.mo
+  /usr/share/locale/pt_PT/LC_MESSAGES/xfce4-session.mo
+  /usr/share/locale/ro/LC_MESSAGES/xfce4-session.mo
+  /usr/share/locale/ru/LC_MESSAGES/xfce4-session.mo
+  /usr/share/locale/sk/LC_MESSAGES/xfce4-session.mo
+  /usr/share/locale/sv/LC_MESSAGES/xfce4-session.mo
+  /usr/share/locale/ta/LC_MESSAGES/xfce4-session.mo
+  /usr/share/locale/tr/LC_MESSAGES/xfce4-session.mo
+  /usr/share/locale/uk/LC_MESSAGES/xfce4-session.mo
+  /usr/share/locale/vi/LC_MESSAGES/xfce4-session.mo
+  /usr/share/locale/zh_CN/LC_MESSAGES/xfce4-session.mo
+  /usr/share/locale/zh_TW/LC_MESSAGES/xfce4-session.mo
+  /usr/share/man/man1/xfce4-session-logout.1.gz
+  /usr/share/man/man1/xfce4-session.1.gz
+  /usr/share/themes/Default/balou/logo.png
+  /usr/share/themes/Default/balou/themerc
+  /usr/share/xfce4/doc/C/images/xfsm-advanced.png
+  /usr/share/xfce4/doc/C/images/xfsm-general.png
+  /usr/share/xfce4/doc/C/images/xfsm-splash.png
+  /usr/share/xfce4/doc/C/xfce4-session.html
+  /usr/share/xfce4/doc/fr/images/xfsm-advanced.png
+  /usr/share/xfce4/doc/fr/images/xfsm-general.png
+  /usr/share/xfce4/doc/fr/images/xfsm-splash.png
+  /usr/share/xfce4/doc/fr/xfce4-session.html
+  /usr/share/xfce4/tips/tips
+  /usr/share/xfce4/tips/tips.dat
+
+------------------
+
+Port Notes:
+
+----- version 4.4.1-1 -----
+Initial release of Xfce 4.4 for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
