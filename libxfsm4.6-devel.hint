@@ -1,0 +1,5 @@
+category: X11
+requires: cygwin glib2-devel gtk2-x11-devel libX11-devel libxfce4util-devel libxfcegui4-devel libxfconf0-devel libxfsm4.6_0
+external-source: xfce4-session
+sdesc: "Xfce4 Session Manager (libdevel)"
+ldesc: "Xfce4 Session Manager"

@@ -1,4 +1,0 @@
-category: Xfce
-requires: cygwin atk glib2 gtk2-x11 libICE6 libSM6 libX11_6 libcairo2 libdbus1_3 libintl8 libxfce4mcs libxfce4util libxfcegui4 pango xfce-mcs-manager
-sdesc: "Xfce4 Session Manager"
-ldesc: "Xfce4 Session Manager"
