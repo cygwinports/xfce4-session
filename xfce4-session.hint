@@ -1,4 +1,4 @@
 category: Xfce
-requires: cygwin atk glib2 gtk2-x11 libcairo2 libdbus1_3 libglade2 libICE6 libintl8 libSM6 libwnck1_22 libX11_6 libxfce4util libxfcegui4 libxfconf0_0 libxfsm4.6_0 pango
+requires: cygwin libatk1.0_0 libglib2.0_0 libgtk2.0_0 libcairo2 libdbus1_3 libglade2.0_0 libICE6 libintl8 libSM6 libwnck1_22 libX11_6 libxfce4util4 libxfcegui4_4 libxfconf0_2 libxfsm4.6_0 libpango1.0_0
 sdesc: "Xfce4 Session Manager"
 ldesc: "Xfce4 Session Manager"
