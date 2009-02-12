@@ -8,19 +8,19 @@ Runtime requirements:
   libcairo2-1.8.6-1
   libdbus-glib_1_2-0.78-1
   libdbus1_3-1.2.4-1
-  libgdk_pixbuf2.0_0-2.14.6-1
+  libgdk_pixbuf2.0_0-2.14.7-2
   libglade2.0_0-2.6.3-2
-  libglib2.0_0-2.18.3-1
-  libgtk2.0_0-2.14.6-1
+  libglib2.0_0-2.18.4-1
+  libgtk2.0_0-2.14.7-2
   libICE6-1.0.4-2
   libintl8-0.17-2
   libpango1.0_0-1.22.4-1
   libSM6-1.1.0-1
   libwnck1_22-2.24.2-1
-  libX11_6-1.1.5-1
-  libxfce4util4-4.5.92-1
-  libxfcegui4_4-4.5.92-1
-  libxfconf0_2-4.5.92-1
+  libX11_6-1.1.5-2
+  libxfce4util4-4.5.99.1-1
+  libxfcegui4_4-4.5.99.1-1
+  libxfconf0_2-4.5.99.1-1
 
 Build requirements:
 (besides corresponding -devel packages)
@@ -34,7 +34,7 @@ Build requirements:
   make-3.81-1
   pkg-config-0.23a-2
   sed-4.1.5-2
-  xfce4-dev-tools-4.5.92-1
+  xfce4-dev-tools-4.5.99.1-1
 
 Canonical website:
   http://www.xfce.org/
@@ -45,17 +45,17 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack xfce4-session-4.5.92-X-src.tar.bz2
+  unpack xfce4-session-4.5.99.1-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./xfce4-session-4.5.92-X.cygport all
+  cygport ./xfce4-session-4.5.99.1-X.cygport all
 
 This will create:
-  /usr/src/libxfsm4.6_0-4.5.92-X.tar.bz2
-  /usr/src/libxfsm4.6-devel-4.5.92-X.tar.bz2
-  /usr/src/xfce4-session-4.5.92-X-src.tar.bz2
-  /usr/src/xfce4-session-4.5.92-X.tar.bz2
+  /usr/src/libxfsm4.6_0-4.5.99.1-X.tar.bz2
+  /usr/src/libxfsm4.6-devel-4.5.99.1-X.tar.bz2
+  /usr/src/xfce4-session-4.5.99.1-X-src.tar.bz2
+  /usr/src/xfce4-session-4.5.99.1-X.tar.bz2
 
 -------------------------------------------
 
@@ -78,14 +78,14 @@ Files included in the binary package:
   /usr/lib/xfce4/splash/engines/libsimple.la
   /usr/lib/xfce4/xfsm-shutdown-helper.exe
   /usr/share/applications/xfce-session-settings.desktop
-  /usr/share/doc/xfce4-session-4.5.92/AUTHORS
-  /usr/share/doc/xfce4-session-4.5.92/BUGS
-  /usr/share/doc/xfce4-session-4.5.92/COPYING
-  /usr/share/doc/xfce4-session-4.5.92/ChangeLog
-  /usr/share/doc/xfce4-session-4.5.92/INSTALL
-  /usr/share/doc/xfce4-session-4.5.92/NEWS
-  /usr/share/doc/xfce4-session-4.5.92/README
-  /usr/share/doc/xfce4-session-4.5.92/TODO
+  /usr/share/doc/xfce4-session-4.5.99.1/AUTHORS
+  /usr/share/doc/xfce4-session-4.5.99.1/BUGS
+  /usr/share/doc/xfce4-session-4.5.99.1/COPYING
+  /usr/share/doc/xfce4-session-4.5.99.1/ChangeLog
+  /usr/share/doc/xfce4-session-4.5.99.1/INSTALL
+  /usr/share/doc/xfce4-session-4.5.99.1/NEWS
+  /usr/share/doc/xfce4-session-4.5.99.1/README
+  /usr/share/doc/xfce4-session-4.5.99.1/TODO
   /usr/share/icons/hicolor/128x128/apps/xfce4-session.png
   /usr/share/icons/hicolor/48x48/apps/xfce4-autostart-editor.png
   /usr/share/icons/hicolor/48x48/apps/xfce4-session.png
@@ -180,6 +180,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 4.5.99.1-1 -----
+Version bump for 4.6-rc1.
 
 ----- version 4.5.92-1 -----
 Version bump for 4.6-beta2.
