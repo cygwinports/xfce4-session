@@ -3,38 +3,39 @@ xfce4-session
 Xfce4 session manager
 
 Runtime requirements:
-  cygwin-1.5.25-15
-  libatk1.0_0-1.24.0-1
-  libcairo2-1.8.6-1
-  libdbus-glib_1_2-0.80-1
-  libdbus1_3-1.2.12-1
-  libgdk_pixbuf2.0_0-2.14.7-2
-  libglade2.0_0-2.6.3-2
-  libglib2.0_0-2.18.4-1
-  libgtk2.0_0-2.14.7-2
-  libICE6-1.0.4-2
-  libintl8-0.17-2
-  libpango1.0_0-1.22.4-1
-  libSM6-1.1.0-1
-  libwnck1_22-2.24.2-1
-  libX11_6-1.1.5-2
-  libxfce4util4-4.6.0-1
-  libxfcegui4_4-4.6.0-1
-  libxfconf0_2-4.6.0-1
+  cygwin-1.7.0-49
+  libatk1.0_0-1.26.0-1
+  libcairo2-1.8.6-10
+  libdbus-glib_1_2-0.80-10
+  libdbus1_3-1.2.14-1
+  libgcc1-4.3.2-2
+  libgdk_pixbuf2.0_0-2.16.2-1
+  libglade2.0_0-2.6.4-1
+  libglib2.0_0-2.20.3-1
+  libgtk2.0_0-2.16.2-1
+  libICE6-1.0.5-10
+  libintl8-0.17-11
+  libpango1.0_0-1.24.2-1
+  libSM6-1.1.0-10
+  libwnck1_22-2.26.1-1
+  libX11_6-1.2-10
+  libxfce4util4-4.6.1-1
+  libxfcegui4_4-4.6.1-1
+  libxfconf0_2-4.6.1-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  autoconf2.5-2.63-1
-  automake1.10-1.10.1-2
+  autoconf2.5-2.63-10
+  automake1.10-1.10.2-10
   binutils-20080624-2
-  cygport-0.4.3-1
-  gawk-3.1.6-1
-  gcc-core-3.4.4-3
-  libtool-2.2.6a-1
-  make-3.81-1
-  pkg-config-0.23a-2
+  cygport-0.9.7-1
+  gawk-3.1.6-2
+  gcc4-core-4.3.2-2
+  libtool-2.2.7a-13
+  make-3.81-2
+  pkg-config-0.23b-10
   sed-4.1.5-2
-  xfce4-dev-tools-4.6.0-1
+  xfce4-dev-tools-4.6.0-10
 
 Canonical website:
   http://www.xfce.org/
@@ -45,17 +46,17 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack xfce4-session-4.6.0-X-src.tar.bz2
+  unpack xfce4-session-4.6.1-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./xfce4-session-4.6.0-X.cygport all
+  cygport ./xfce4-session-4.6.1-X.cygport all
 
 This will create:
-  /usr/src/libxfsm4.6_0-4.6.0-X.tar.bz2
-  /usr/src/libxfsm4.6-devel-4.6.0-X.tar.bz2
-  /usr/src/xfce4-session-4.6.0-X-src.tar.bz2
-  /usr/src/xfce4-session-4.6.0-X.tar.bz2
+  /usr/src/libxfsm4.6_0-4.6.1-X.tar.bz2
+  /usr/src/libxfsm4.6-devel-4.6.1-X.tar.bz2
+  /usr/src/xfce4-session-4.6.1-X-src.tar.bz2
+  /usr/src/xfce4-session-4.6.1-X.tar.bz2
 
 -------------------------------------------
 
@@ -78,14 +79,13 @@ Files included in the binary package:
   /usr/lib/xfce4/splash/engines/libsimple.la
   /usr/lib/xfce4/xfsm-shutdown-helper.exe
   /usr/share/applications/xfce-session-settings.desktop
-  /usr/share/doc/xfce4-session-4.6.0/AUTHORS
-  /usr/share/doc/xfce4-session-4.6.0/BUGS
-  /usr/share/doc/xfce4-session-4.6.0/COPYING
-  /usr/share/doc/xfce4-session-4.6.0/ChangeLog
-  /usr/share/doc/xfce4-session-4.6.0/INSTALL
-  /usr/share/doc/xfce4-session-4.6.0/NEWS
-  /usr/share/doc/xfce4-session-4.6.0/README
-  /usr/share/doc/xfce4-session-4.6.0/TODO
+  /usr/share/doc/xfce4-session/AUTHORS
+  /usr/share/doc/xfce4-session/BUGS
+  /usr/share/doc/xfce4-session/COPYING
+  /usr/share/doc/xfce4-session/ChangeLog
+  /usr/share/doc/xfce4-session/NEWS
+  /usr/share/doc/xfce4-session/README
+  /usr/share/doc/xfce4-session/TODO
   /usr/share/icons/hicolor/128x128/apps/xfce4-session.png
   /usr/share/icons/hicolor/48x48/apps/xfce4-autostart-editor.png
   /usr/share/icons/hicolor/48x48/apps/xfce4-session.png
@@ -181,20 +181,8 @@ Files included in the binary package:
 
 Port Notes:
 
------ version 4.6.0-1 -----
-Version bump.
-
------ version 4.5.99.1-1 -----
-Version bump for 4.6-rc1.
-
------ version 4.5.92-1 -----
-Version bump for 4.6-beta2.
-
------ version 4.5.91-1 -----
-Version bump for 4.6-beta1.
-
------ version 4.4.1-1 -----
-Initial release of Xfce 4.4 for Cygwin.
+----- version 4.6.1-1 -----
+Initial release of Xfce 4.6 for Cygwin 1.7.
 
 
 Cygwin port maintained by:
