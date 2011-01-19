@@ -1,5 +1,5 @@
 category: Xfce
-requires: libgcc1 libglib2.0_0 libgtk2.0_0 libX11_6 libxfce4util4 libxfcegui4_4 libxfconf0_2
+requires: libglib2.0_0 libgtk2.0_0 libX11_6 libxfce4util4 libxfconf0_2
 external-source: xfce4-session
 sdesc: "Xfce4 Session Manager (runtime library)"
 ldesc: "Xfce4 Session Manager"
