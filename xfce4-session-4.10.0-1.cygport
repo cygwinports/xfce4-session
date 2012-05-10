@@ -3,13 +3,6 @@ inherit xfce4
 DESCRIPTION="Xfce4 session manager"
 
 PKG_NAMES="${PN} libxfsm4.6_0 libxfsm4.6-devel"
-xfce4_session_CONTENTS="etc/ usr/bin/*.exe usr/lib/xfce4/ usr/share/"
+xfce4_session_CONTENTS="--exclude=cygxfsm-4.6-0.dll etc/ usr/bin/ usr/lib/xfce4/ usr/share/"
 libxfsm4_6_0_CONTENTS="usr/bin/cygxfsm-4.6-0.dll"
 libxfsm4_6_devel_CONTENTS="usr/include/ usr/lib/lib* usr/lib/pkgconfig/"
-
-CYGCONF_ARGS="
-	--disable-consolekit
-	--disable-hal
-	--disable-polkit
-	--disable-upower
-"
