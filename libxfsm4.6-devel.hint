@@ -1,5 +1,0 @@
-category: Xfce
-requires: libglib2.0-devel libgtk2.0-devel libX11-devel libxfce4util-devel libxfconf0-devel libxfsm4.6_0
-external-source: xfce4-session
-sdesc: "Xfce4 Session Manager (libdevel)"
-ldesc: "Xfce4 Session Manager"

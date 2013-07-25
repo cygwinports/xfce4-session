@@ -1,4 +1,0 @@
-category: Xfce
-requires: dbus exo libatk1.0_0 libcairo2 libdbus-glib_1_2 libdbus1_3 libgdk_pixbuf2.0_0 libglib2.0_0 libgtk2.0_0 libICE6 libpango1.0_0 libSM6 libwnck1_22 libX11_6 libxfce4util6 libxfce4ui1_0 libxfconf0_2 libxfsm4.6_0 midori perl Thunar Terminal xdg-user-dirs xfce4-about xfce4-appfinder xfce4-panel xfce4-settings xfdesktop xfwm4 xinit xmessage xmodmap xrdb xscreensaver
-sdesc: "Xfce4 Session Manager"
-ldesc: "Xfce4 Session Manager"
