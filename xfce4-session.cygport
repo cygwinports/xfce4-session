@@ -10,7 +10,7 @@ DESCRIPTION="Xfce4 Session Manager"
 PKG_NAMES="${NAME} libxfsm4.6_0 libxfsm4.6-devel"
 xfce4_session_REQUIRES="dbus exo iceauth midori perl run Thunar xdg-user-dirs\
   xfce4-about xfce4-appfinder xfce4-panel xfce4-settings xfce4-terminal\
-  xfce-themes xfdesktop xfwm4 xinit xmessage xmodmap xrdb xscreensaver"
+  xfce-themes xfdesktop xfwm4 xinit xmessage xmodmap xrdb rodent-icon-theme"
 xfce4_session_CONTENTS="--exclude=cygxfsm-4.6-0.dll etc/ usr/bin/ usr/lib/xfce4/ usr/share/"
 libxfsm4_6_0_CATEGORY="Libs"
 libxfsm4_6_0_CONTENTS="usr/bin/cygxfsm-4.6-0.dll"
