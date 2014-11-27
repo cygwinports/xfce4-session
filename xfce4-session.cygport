@@ -2,13 +2,13 @@ inherit xfce4
 
 NAME="xfce4-session"
 VERSION=4.10.1
-RELEASE=1
+RELEASE=2
 CATEGORY="Xfce"
 SUMMARY="Xfce session manager"
 DESCRIPTION="Xfce4 Session Manager"
 
 PKG_NAMES="${NAME} libxfsm4.6_0 libxfsm4.6-devel"
-xfce4_session_REQUIRES="dbus exo iceauth midori perl run Thunar xdg-user-dirs\
+xfce4_session_REQUIRES="dbus-x11 exo iceauth midori perl run Thunar xdg-user-dirs\
   xfce4-about xfce4-appfinder xfce4-panel xfce4-settings xfce4-terminal\
   xfce-themes xfdesktop xfwm4 xinit xmessage xmodmap xrdb rodent-icon-theme"
 xfce4_session_CONTENTS="--exclude=cygxfsm-4.6-0.dll etc/ usr/bin/ usr/lib/xfce4/ usr/share/"
