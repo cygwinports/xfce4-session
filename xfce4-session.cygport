@@ -2,7 +2,7 @@ inherit xfce4
 
 NAME="xfce4-session"
 VERSION=4.10.1
-RELEASE=2
+RELEASE=3
 CATEGORY="Xfce"
 SUMMARY="Xfce session manager"
 DESCRIPTION="Xfce4 Session Manager"
