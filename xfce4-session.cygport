@@ -1,13 +1,13 @@
 inherit xfce4
 
 NAME="xfce4-session"
-VERSION=4.10.1
-RELEASE=5
+VERSION=4.12.1
+RELEASE=1
 CATEGORY="Xfce"
 SUMMARY="Xfce session manager"
 DESCRIPTION="Xfce4 Session Manager"
 
-PATCH_URI="4.10.1-XDG_CURRENT_DESKTOP.patch"
+PATCH_URI="4.12.1-shutdown-cygwin.patch"
 
 PKG_NAMES="${NAME} libxfsm4.6_0 libxfsm4.6-devel"
 xfce4_session_REQUIRES="dbus-x11 exo iceauth midori perl run Thunar \
