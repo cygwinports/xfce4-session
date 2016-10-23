@@ -7,16 +7,29 @@ CATEGORY="Xfce"
 SUMMARY="Xfce session manager"
 DESCRIPTION="Xfce4 Session Manager"
 
-PATCH_URI="4.12.1-shutdown-cygwin.patch"
+SRC_URI+=" xfce4_xicon.ico"
+PATCH_URI="
+	4.12.1-shutdown-cygwin.patch
+	4.12.1-xsession-icon.patch
+"
 
 PKG_NAMES="${NAME} libxfsm4.6_0 libxfsm4.6-devel"
 xfce4_session_REQUIRES="dbus-x11 exo iceauth midori perl run Thunar \
   mousepad orage ristretto xarchiver xdg-user-dirs \
   xfce4-about xfce4-appfinder xfce4-panel xfce4-settings xfce4-terminal\
-  xfce-themes xfdesktop xfwm4 xinit xmessage xmodmap xrdb rodent-icon-theme"
+  xfce-themes xfdesktop xfwm4 xinit xmessage xmodmap xrdb gnome-themes"
 xfce4_session_CONTENTS="--exclude=cygxfsm-4.6-0.dll etc/ usr/bin/ usr/lib/xfce4/ usr/share/"
 libxfsm4_6_0_CATEGORY="Libs"
 libxfsm4_6_0_CONTENTS="usr/bin/cygxfsm-4.6-0.dll"
 libxfsm4_6_devel_CATEGORY="Libs"
 libxfsm4_6_devel_CONTENTS="usr/include/ usr/lib/lib* usr/lib/pkgconfig/"
 
+CYGCONF_ARGS="ICEAUTH=/usr/bin/iceauth"
+
+src_install() {
+	cd ${B}
+	cyginstall
+
+	insinto /usr/share/pixmaps/xwin
+	doins ${S}/xfce4_xicon.ico
+}

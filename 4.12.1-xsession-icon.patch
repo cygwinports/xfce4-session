@@ -1,0 +1,10 @@
+--- origsrc/xfce4-session-4.12.1/xfce.desktop.in	2014-10-20 09:07:10.000000000 -0500
++++ src/xfce4-session-4.12.1/xfce.desktop.in	2016-10-20 02:47:23.787530800 -0500
+@@ -3,6 +3,6 @@ Version=1.0
+ _Name=Xfce Session
+ _Comment=Use this session to run Xfce as your desktop environment
+ Exec=startxfce4
+-Icon=
++Icon=xfce4_xicon
+ Type=Application
+ DesktopNames=XFCE
